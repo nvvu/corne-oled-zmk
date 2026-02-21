@@ -132,7 +132,21 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
+- p: [3, 4]
+  k: '{'
+- p: [7, 8]
+  k: '}'
+- p: [15, 16]
+  k: (
 - p: [19, 20]
-  k: ESCAPE
+  k: )
+- p: [27, 28]
+  k: '['
+- p: [30, 31]
+  k: ']'
+- p: [5, 4]
+  k: PAGE UP
+- p: [16, 17]
+  k: PAGE DOWN
 - p: [24, 35]
-  k: CAPSLOCK
+  k: CAPS
